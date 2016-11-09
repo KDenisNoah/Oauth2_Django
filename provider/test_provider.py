@@ -13,7 +13,7 @@ import requests
 
 MOCK_CLIENT_ID = 'abc123456789'
 MOCK_CLIENT_SECRET = 'MNBVCXZLKJHGFDSAPOIUYTREWQ'
-MOCK_REDIRECT_URI = 'http://yiyin.site:8082/myapp/oauth_endpoint/'
+MOCK_REDIRECT_URI = 'U_R_L// myapp/oauth_endpoint/'
 MOCK_AUTHORIZATION_CODE = 'poiuytrewqlkjhgfdsamnbvcxz0987654321'
 MOCK_REFRESH_TOKEN = 'uhbygvtfcrdxeszokmijn'
 
@@ -68,7 +68,7 @@ def test_get_authorization_code(request):
     for i in request.GET:
         result[i] = request.GET[i]
 
-    uri = 'http://yiyin.site:8082/oauth2/auth?'
+    uri = 'U_R_L// oauth2/auth?'
     uri = utils.build_url(uri, result)
     response = class_provider.get_authorization_code_from_uri(uri)
     redirect = response.headers['Location']
