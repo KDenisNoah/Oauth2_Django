@@ -1,4 +1,5 @@
 # Oauth2_Django
+# @Ivan In Pycharm
 Oauth2_Django
 
 U_R_L// oauth/get_authorization_code/
@@ -9,3 +10,5 @@ U_R_L// oauth/get_token_key/
 
 U_R_L// oauth/refresh_token/
 {"access_token": "0aKEWzhbJzGg885CnVskVUS2QPgowkP9Wo76eaXX", "token_type": "Bearer", "expires_in": 3600, "refresh_token": "o5qZqkBK5yrWf2bQecneErbNBABfKp6l4gDPB73n"}
+
+
